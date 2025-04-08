@@ -1,196 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Assignment</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Mega Mart</h1>
     <h4>Your Complete Shopping Destination</h4>
     <ul>
-        <li>Home</li>
-        <li>Electronics</li>
-        <li>Fashion</li>
-        <li>Books</li>
-        <li>Cart</li>
-        <li>Contact</li>
+      <a href=""><li>Home</li></a>
+
+      <a href=""><li>Electronics</li></a>
+      <a href=""><li>Fashion</li></a>
+      <a href=""><li>Books</li></a>
+      <a href=""><li>Cart</li></a>
+      <a href=""><li>Contact</li></a>
     </ul>
     <h3>Product Search</h3>
     <form action="">
-        
-        <input type="text" placeholder="Search over 70,000 ">
-        <input type="submit" value="Search">
+      <input type="text" placeholder="Search over 70,000 " />
+      <input type="submit" value="Search" />
     </form>
-<h2>Featured Products</h2>
+    <h2>Featured Products</h2>
 
-<table border="1" cellpadding="15">
-    <thead>
+    <table border="1" cellpadding="15">
+      <thead>
         <th>Products</th>
         <th>Description</th>
         <th>Price</th>
         <th>Stock</th>
         <th>Action</th>
-    </thead>
-    <tbody>
+      </thead>
+      <tbody>
         <tr>
-            <td><img src="./headphone.png" alt="" height="80" width="80"><h3>Wireless Headphones</h3></td>
-            <td>Premium noise-canceling bluetooth headphone</td>
-            <td><del>52299</del> <br><ins>83999</ins></td>
-            <td>In stock</td>
-            <td> <button>Add to Cart</button><br><span>Available question: 15</span></td>
+          <td>
+            <img src="./headphone.png" alt="" height="80" width="80" />
+            <h3>Wireless Headphones</h3>
+          </td>
+          <td>Premium noise-canceling bluetooth headphone</td>
+          <td><del>52299</del> <br /><ins>83999</ins></td>
+          <td>In stock</td>
+          <td>
+            <button>Add to Cart</button><br /><span
+              >Available question: 15</span
+            >
+          </td>
         </tr>
 
-        <tr> 
-            <td><img src="./smartwatch.png" alt="pic-smartwatch" height="80" width="110"><h3>Smart Watch Pro</h3></td>
-            <td>Advanced fitness tracking smartwatch <ol>
-                <li>Heart rate monitor</li>
-                <li>GPS</li>
-                <li>Water resistance</li>
-            </ol></td>
-            <td>$89.23</td>
-            <td>Low Stock</td>
-            <td><button>Add to cart</button></td>
+        <tr>
+          <td>
+            <img
+              src="./smartwatch.png"
+              alt="pic-smartwatch"
+              height="80"
+              width="110"
+            />
+            <h3>Smart Watch Pro</h3>
+          </td>
+          <td>
+            Advanced fitness tracking smartwatch
+            <ol>
+              <li>Heart rate monitor</li>
+              <li>GPS</li>
+              <li>Water resistance</li>
+            </ol>
+          </td>
+          <td>$89.23</td>
+          <td>Low Stock</td>
+          <td><button>Add to cart</button></td>
         </tr>
-    </tbody>
-   
-</table>
+      </tbody>
+    </table>
 
-<h1>Create New Account</h1>
-<form action="">
-    <fieldset>
+    <h1>Create New Account</h1>
+    <form action="">
+      <fieldset>
         <legend>Personal Information</legend>
-<label for="">First Name:</label>
-<input type="text " required>
-<label for="">Last Name:</label>
-<input type="text" >
-<label for="">Date of Birth</label>
-<input type="date" required>
-<label for="">Gender:</label>
-<label for="">male</label>
-<input type="radio">
-<label for="">female</label>
-<input type="radio">
-    </fieldset>
-    
+        <label for="">First Name:</label>
+        <input type="text " required />
+        <label for="">Last Name:</label>
+        <input type="text" />
+        <label for="">Date of Birth</label>
+        <input type="date" required />
+        <label for="">Gender:</label>
+        <label for="">male</label>
+        <input type="radio" name="gender" />
+        <label for="">female</label>
+        <input type="radio" name="gender" />
+      </fieldset>
 
+      <fieldset>
+        <legend>Account Details</legend>
+        <label for="">Email:</label>
+        <input type="email" required />
+        <label for="">Password:</label>
+        <input type="password" required />
+        <label for="">Phone number:</label>
+        <input type="number" required />
+        <span>Subscribe to Newsletter:</span>
+        <input type="checkbox" />
+      </fieldset>
 
-<fieldset>
-<legend>Account Details</legend>
-<label for="">Email:</label>
-<input type="email" required>
-<label for="">Password:</label>
-<input type="password" required>
-<label for="">Phone number:</label>
-<input type="number" required>
-<span>Subscribe to Newsletter:</span>
-<input type="checkbox">
-</fieldset>
-
-
-
-
-    <fieldset>
-
+      <fieldset>
         <legend>Shipping Address</legend>
         <label for="">Street Address:</label>
         <textarea name="" id=""></textarea>
-    <label for="">Country:</label>
-    <input type="text" required>
-    <label for="">Zip Code:</label>
-    <input type="text" required>
-</fieldset>
-<input type="submit" value="Create Address">
-<input type="submit" value="Clear Form">
-
-
-</form>
-<h1>Products Comparision</h1>
-<table border="1" width="500">
-    <thead>
+        <label for="">Country:</label>
+        <input type="text" required />
+        <label for="">Zip Code:</label>
+        <input type="text" required />
+      </fieldset>
+      <input type="submit" value="Create Address" />
+      <input type="submit" value="Clear Form" />
+    </form>
+    <h1>Products Comparision</h1>
+    <table border="1" width="500">
+      <thead>
         <th>Feature</th>
         <th>Basic Model</th>
         <th>Pro Model</th>
         <th>Premium Model</th>
-    </thead>
-    <tbody>
+      </thead>
+      <tbody>
         <tr>
-            <th>Battery Life</th>
-            <td>8 hours</td>
-            <td>12 hours</td>
-            <td>24 hours</td>
+          <th>Battery Life</th>
+          <td>8 hours</td>
+          <td>12 hours</td>
+          <td>24 hours</td>
         </tr>
         <tr>
-            <th>Water Resistance</th>
-            <td>IPX4</td>
-            <td>IPX7</td>
-            <td>IP68</td>
+          <th>Water Resistance</th>
+          <td>IPX4</td>
+          <td>IPX7</td>
+          <td>IP68</td>
         </tr>
         <tr>
-            <th>Warranty</th>
-            <td>1 Year</td>
-            <td colspan="2">2 Year</td>
-          
-            
+          <th>Warranty</th>
+          <td>1 Year</td>
+          <td colspan="2">2 Year</td>
         </tr>
         <tr>
-            <td colspan="4">* All Price include VAT</td>
+          <td colspan="4">* All Price include VAT</td>
         </tr>
-    </tbody>
-</table>
-<h2>Checkout Process</h2>
-<form action="">
-    <fieldset>
+      </tbody>
+    </table>
+    <h2>Checkout Process</h2>
+    <form action="">
+      <fieldset>
         <legend>Payment Information</legend>
-    <label for="">Card type:</label>
-    <input type="radio">
-    <label for="">Visa</label>
-    <input type="radio">
-    <label for="">Master Card</label>
-    <input type="radio">
-    <label for="">American Express</label>
-    <br>
-    <label for="">Card Number</label>
-    <input type="number">
-    <label for="">Expiry Date:</label>
-    <input type="date">
-    </fieldset>
+        <label for="">Card type:</label>
+        <input type="radio" />
+        <label for="">Visa</label>
+        <input type="radio" />
+        <label for="">Master Card</label>
+        <input type="radio" />
+        <label for="">American Express</label>
+        <br />
+        <label for="">Card Number</label>
+        <input type="number" />
+        <label for="">Expiry Date:</label>
+        <input type="date" />
+      </fieldset>
 
-    <fieldset>
+      <fieldset>
         <legend>Order Summary</legend>
         <table border="1">
-            <thead>
-                <tr>
-                    <th>Item</th>
-                    <th></th>
-                    <th>Quality</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Wireless Headphone</td>
-                    <td></td>
-                    <td>2</td>
-                    <td>$299.98</td>
-                </tr>
-                <tr>
-                    <td>Shipping</td>
-                    <td></td>
-                    <td></td>
-                    <td>$15.00</td>
-                </tr>
-                <tr>
-                  
-                    <td>Total
-                    <td></td>
-                    <td></td>
-                    <td>32.87</td>
-                </tr>
-            </tbody>
-
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th></th>
+              <th>Quality</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Wireless Headphone</td>
+              <td></td>
+              <td>2</td>
+              <td>$299.98</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td></td>
+              <td></td>
+              <td>$15.00</td>
+            </tr>
+            <tr>
+              <td colspan="3">Total</td>
+              <!-- <td></td> -->
+              <!-- <td></td> -->
+              <td>32.87</td>
+            </tr>
+          </tbody>
         </table>
-    </fieldset>
-</form>
-</body>
+      </fieldset>
+      <button>Complete purchase</button>
+    </form>
+    <div>
+      <h2>Product Video</h2>
+      <video
+        src="./SampleVideo_1280x720_1mb.mp4"
+        controls
+        height="300"
+        width="300"
+      ></video>
+    </div>
+    <div>
+      <h2>Product Audio Description</h2>
+      <audio src="./file_example_MP3_700KB.mp3" controls></audio>
+    </div>
+    <div>
+      <h3>Contact Us</h3>
+      <a href="mailto:abdull@gmail.com">support@megamart.com</a><br />
+      <br />
+
+      <a href="tel:22334455">+12233(330)333</a><br><br>
+      <address>Address: 123 Commerce Street New York,NY 10001</address>
+    </div>
+    <div>
+      <h2>Here is our location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d57911.15148569116!2d67.02688888710232!3d24.882731122291982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3eb33fbb0adad14f%3A0xd4034f7f251f28e5!2sSaylani%20job%20bank%2C%20Bahadurabad%20Bahadur%20Yar%20Jang%20CHS%2C%20Karachi!3m2!1d24.8827368!2d67.06817459999999!4m5!1s0x3eb33fbb0adad14f%3A0xd4034f7f251f28e5!2sSaylani%20job%20bank!3m2!1d24.8827368!2d67.06817459999999!5e0!3m2!1sen!2s!4v1744075152627!5m2!1sen!2s"
+        width="500"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div>
+      <h2>Check out the latest video</h2>
+      <iframe
+        width="460"
+        height="315"
+        src="https://www.youtube.com/embed/LX8_z1nvqk4?si=BSj4X-p7B78iZVRs"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <h1>Quicks Links</h1>
+    <ul>
+      <li>Terms of Service</li>
+      <li>Privacy Policy</li>
+      <li>Return Policy</li>
+    </ul>
+    <p>&copy;2023 MegaMart. all rigth reserved.</p>
+    <p>Folloe us on <a href="#">Social Media</a></p>
+  </body>
 </html>
